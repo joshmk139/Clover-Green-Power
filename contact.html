@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#0a4d28" />
+  <meta name="description" content="Get in touch with Clover Green Power for partnerships, investments, and inquiries." />
+  <title>Contact Us | Clover Green Power</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;0,9..144,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="contact">
+  <header id="site-header" class="site-header"></header>
+
+  <main>
+    <section class="hero hero-page">
+      <div class="hero-gradient hero__bg" aria-hidden="true"></div>
+      <div class="leaf-pattern hero__bg hero__bg--pattern" aria-hidden="true"></div>
+      <canvas class="particles-canvas" data-count="15" aria-hidden="true"></canvas>
+      <div class="container hero-content">
+        <span class="hero-badge reveal">Get in Touch</span>
+        <h1 class="heading-xl reveal">Contact Us</h1>
+        <p class="hero-subtitle reveal">We'd love to hear from you. Reach out for partnerships, media, or general inquiries.</p>
+      </div>
+    </section>
+
+    <section class="section-padding section-tight-top">
+      <div class="container contact-grid">
+        <div class="glass-card p-8 reveal">
+          <h2 class="heading-md mb-6">Send a Message</h2>
+          <form id="contact-form" class="space-y-4" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" class="input-field" autocomplete="name" />
+              <p id="name-error" class="field-error"></p>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" class="input-field" autocomplete="email" />
+              <p id="email-error" class="field-error"></p>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input id="phone" name="phone" type="tel" class="input-field" autocomplete="tel" />
+              <p id="phone-error" class="field-error"></p>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" class="input-field" />
+              <p id="subject-error" class="field-error"></p>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" class="input-field"></textarea>
+              <p id="message-error" class="field-error"></p>
+            </div>
+            <button type="submit" class="btn-primary w-full">Send Message <i data-lucide="send"></i></button>
+            <div id="contact-success" class="form-message success">
+              <i data-lucide="check-circle"></i>
+              <p>Thank you! Your message has been sent. We'll respond within 2 business days.</p>
+            </div>
+          </form>
+        </div>
+
+        <div class="space-y-8">
+          <div class="nigeria-map reveal">
+            <svg viewBox="0 0 400 450" aria-label="Map of Nigeria showing project locations">
+              <defs>
+                <linearGradient id="mapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#1a8f42" stop-opacity="0.2" />
+                  <stop offset="100%" stop-color="#1a8f42" stop-opacity="0.05" />
+                </linearGradient>
+              </defs>
+              <path d="M120 80 L280 60 L320 120 L300 200 L280 280 L200 350 L120 320 L80 240 L60 160 Z" fill="url(#mapGrad)" stroke="#1a8f42" stroke-width="2" stroke-opacity="0.5" />
+              <g class="map-pin">
+                <circle cx="220" cy="280" r="8" fill="#1a8f42" />
+                <circle cx="220" cy="280" r="16" fill="none" stroke="#1a8f42" stroke-width="1" opacity="0.5" />
+                <text x="220" y="308" text-anchor="middle" fill="#0a4d28" font-size="10">Port Harcourt HQ</text>
+              </g>
+              <g class="map-pin map-pin--delay-1">
+                <circle cx="150" cy="250" r="8" fill="#1a8f42" />
+                <circle cx="150" cy="250" r="16" fill="none" stroke="#1a8f42" stroke-width="1" opacity="0.5" />
+                <text x="150" y="278" text-anchor="middle" fill="#0a4d28" font-size="10">Ogun Solar</text>
+              </g>
+              <g class="map-pin map-pin--delay-2">
+                <circle cx="200" cy="150" r="8" fill="#1a8f42" />
+                <circle cx="200" cy="150" r="16" fill="none" stroke="#1a8f42" stroke-width="1" opacity="0.5" />
+                <text x="200" y="178" text-anchor="middle" fill="#0a4d28" font-size="10">Kaduna Wind</text>
+              </g>
+              <g class="map-pin map-pin--delay-3">
+                <circle cx="180" cy="200" r="8" fill="#1a8f42" />
+                <circle cx="180" cy="200" r="16" fill="none" stroke="#1a8f42" stroke-width="1" opacity="0.5" />
+                <text x="180" y="228" text-anchor="middle" fill="#0a4d28" font-size="10">Lagos Hub</text>
+              </g>
+            </svg>
+            <div class="map-caption">Active &amp; planned project locations across Nigeria</div>
+          </div>
+
+          <div class="glass-card p-8 reveal" id="contact-details">
+            <h3 class="contact-info-title">Contact Information</h3>
+            <div class="contact-info-row">
+              <i data-lucide="map-pin" aria-hidden="true"></i>
+              <span data-site-address>Port Harcourt, Rivers State, Nigeria</span>
+            </div>
+            <div class="contact-info-row contact-info-row--center mt-4">
+              <i data-lucide="phone" aria-hidden="true"></i>
+              <div>
+                <p data-site-phone>+234 800 CLOVER (256 837)</p>
+                <p class="text-muted-60 stat-label-sm" data-site-phone-alt>+234 1 700 0000</p>
+              </div>
+            </div>
+            <div class="contact-info-row contact-info-row--center mt-4">
+              <i data-lucide="mail" aria-hidden="true"></i>
+              <a href="mailto:hello@clovergreenpower.com" class="text-clover" data-site-email>hello@clovergreenpower.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding section-faint">
+      <div class="container container-medium">
+        <div class="section-heading reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="heading-lg">Frequently Asked Questions</h2>
+        </div>
+        <div class="space-y-4">
+          <div class="faq-item glass-card">
+            <button type="button" class="faq-question" aria-expanded="true">
+              What regions does Clover Green Power operate in?
+              <i data-lucide="chevron-down" class="chevron"></i>
+            </button>
+            <div class="faq-answer"><p>We are headquartered in Port Harcourt, Rivers State, with active development across Ogun, Niger, Kaduna, and other regions, with plans for nationwide expansion through 2030.</p></div>
+          </div>
+          <div class="faq-item glass-card">
+            <button type="button" class="faq-question" aria-expanded="false">
+              How can I invest in your projects?
+              <i data-lucide="chevron-down" class="chevron"></i>
+            </button>
+            <div class="faq-answer"><p>Visit our <a href="investment.html" class="text-clover">Investment page</a> to review tiers and submit an inquiry. Our team responds within 2 business days with tailored materials.</p></div>
+          </div>
+          <div class="faq-item glass-card">
+            <button type="button" class="faq-question" aria-expanded="false">
+              What technologies do you deploy?
+              <i data-lucide="chevron-down" class="chevron"></i>
+            </button>
+            <div class="faq-answer"><p>We integrate solar PV, mini-hydro, wind where viable, biodegradable and biomass energy, battery storage, and smart grid IoT for reliable, scalable clean power.</p></div>
+          </div>
+          <div class="faq-item glass-card">
+            <button type="button" class="faq-question" aria-expanded="false">
+              Is my investment secured?
+              <i data-lucide="chevron-down" class="chevron"></i>
+            </button>
+            <div class="faq-answer"><p>Projects follow international ESG and financial standards with independent audits, insurance, and regulated SPV structures.</p></div>
+          </div>
+          <div class="faq-item glass-card">
+            <button type="button" class="faq-question" aria-expanded="false">
+              How do you measure community impact?
+              <i data-lucide="chevron-down" class="chevron"></i>
+            </button>
+            <div class="faq-answer"><p>We track households electrified, jobs created, CO₂ avoided, and local revenue generated—published in quarterly impact reports.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
